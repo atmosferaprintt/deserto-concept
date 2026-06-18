@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ДЕСЕРТО · 02 Классика</title>
+<meta name="description" content="Концепция 02 — литературная эстетика и дух классики для кондитерской ДЕСЕРТО.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css">
+<style>
+:root{
+  --bg:#F2ECE0; --ink:#1F1A16; --muted:#857A6A; --paper:#FBF6EB; --line:#DFD4BE;
+  --accent:#9A1B2F; --accent2:#9DBBCB; --chip:#3A2417;
+  --font-display:'Playfair Display',Georgia,serif;
+  --font-body:'EB Garamond',Georgia,serif;
+  --font-mono:'JetBrains Mono',monospace;
+}
+body{font-size:18px}
+.body{font-size:18.5px}
+.hero2{display:grid;grid-template-columns:1fr .8fr;gap:48px;align-items:center}
+@media(max-width:900px){.hero2{grid-template-columns:1fr;gap:28px}}
+.hero2 .art{border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--paper)}
+.hero2 .art img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#FBF6EB}
+.rule{display:flex;align-items:center;justify-content:center;gap:14px;margin:6px 0 0;color:var(--accent)}
+.rule .ln{height:1px;width:64px;background:var(--accent);opacity:.5}
+.rule .dot{font-size:18px}
+.dropcap::first-letter{font-family:var(--font-display);font-size:3.6em;line-height:.8;float:left;padding:8px 12px 0 0;color:var(--accent);font-weight:700}
+/* verse block — like an Onegin page */
+.verse{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:40px 38px;margin-top:30px;display:grid;grid-template-columns:.9fr 1.1fr;gap:36px;align-items:center}
+@media(max-width:760px){.verse{grid-template-columns:1fr;gap:24px}}
+.verse .num{font-family:var(--font-display);font-style:italic;font-size:22px;letter-spacing:.18em;color:var(--accent);text-align:center;margin-bottom:14px}
+.verse p{font-family:var(--font-body);font-style:italic;font-size:19px;line-height:1.7;text-align:center}
+.verse .pic{border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.verse .pic img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.frame{border:1px solid var(--accent);border-radius:4px;padding:3px}
+.frame .in{border:1px solid var(--accent);border-radius:2px;overflow:hidden}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<nav id="nav">
+  <a class="brand" href="index.html">ДЕСЕРТО · 3 КОНЦЕПЦИИ</a>
+  <span class="switch">
+    <a href="concept-1.html">01 ОБНОВЛЕНИЕ</a>
+    <a href="concept-2.html" class="on">02 КЛАССИКА</a>
+    <a href="concept-3.html">03 PÂTISSERIE</a>
+  </span>
+</nav>
+
+<!-- HERO -->
+<section>
+  <div class="wrap hero2">
+    <div>
+      <div class="kick rv"><span class="label">Концепция 02</span><span class="ln"></span></div>
+      <h1 class="h rv">Кондитерская как <span class="ac">произведение искусства</span></h1>
+      <div class="rule rv"><span class="ln"></span><span class="dot">❧</span><span class="ln"></span></div>
+      <p class="lead rv">В основе — идея культурного наследия и вечной классики. Источник вдохновения — русская литература и настроение эпохи «Евгения Онегина». Не как иллюстрация произведения, а как характер: элегантность, утончённость, внимание к деталям и способность оставаться актуальным спустя десятилетия.</p>
+    </div>
+    <div class="art rv"><img src="img/c2/monogram.jpg" alt="Орнаментальная монограмма"></div>
+  </div>
+</section>
+
+<!-- ИДЕЯ -->
+<section style="padding-top:20px">
+  <div class="wrap narrow">
+    <div class="kick rv"><span class="sec-no">01 / откуда растёт идея</span><span class="ln"></span></div>
+    <h2 class="s rv">Неожиданно для категории — <span class="ac">естественно для бренда с историей</span></h2>
+    <p class="body dropcap rv" style="margin-top:22px">Бренд существует более десяти лет и заслужил доверие гостей, став частью городской культуры. Сегодня компания выходит на новый этап: расширение сети требует более сильного и выразительного образа — при этом важно сохранить ощущение качества, истории и уважения к собственным традициям.</p>
+    <p class="body rv">Мы искали идею, которая позволит выделиться среди множества кондитерских со схожими решениями. Так появилась концепция литературной эстетики. Так же, как великие произведения остаются значимыми вне времени, бренд стремится создавать десерты, к которым хочется возвращаться снова и снова.</p>
+  </div>
+</section>
+
+<!-- ОТСТРОЙКА -->
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="kick rv"><span class="sec-no">02 / чем отстраиваемся</span><span class="ln"></span></div>
+    <h2 class="s rv">Не изображаем продукт — <span class="ac">обращаемся к культуре</span></h2>
+    <p class="lead rv">Большинство кондитерских используют привычные ассоциации: крем, сладости, иллюстрации выпечки, пастельные цвета. Мы предлагаем иной подход — и бренд начинает восприниматься не только как место покупки десертов, но как пространство со своим характером, историей и атмосферой.</p>
+    <div class="grid g3">
+      <div class="fig sq rv"><img src="img/c2/chandelier.jpg" alt="Гравюра люстры"><span class="cap">гравюра</span></div>
+      <div class="fig sq rv"><img src="img/c2/tins.jpg" alt="Жестяные коробки"><span class="cap">упаковка-объект</span></div>
+      <div class="fig sq rv"><img src="img/c2/wordmark.jpg" alt="Книжный шрифт"><span class="cap">логотип-обложка</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ВИЗУАЛЬНЫЙ ЯЗЫК -->
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="kick rv"><span class="sec-no">03 / визуальный язык</span><span class="ln"></span></div>
+    <h2 class="s rv">Эстетика старинных изданий</h2>
+    <p class="body rv" style="margin-top:18px">Основа айдентики — элементы классической графики: тонкие иллюстрации-гравюры, декоративные рамки, изящная типографика, литературные цитаты и орнаментальные виньетки. Каждый носитель становится страницей визуального повествования, а упаковка — частью истории бренда и коллекционным объектом, который хочется рассматривать и сохранять.</p>
+    <div class="grid g2">
+      <div class="fig wide rv"><img src="img/c2/boxes.jpg" alt="Коробки с виньетками"><span class="cap">коробки · виньетки</span></div>
+      <div class="fig wide rv"><img src="img/c2/invitation.jpg" alt="Приглашение"><span class="cap">полиграфия</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ТИПОГРАФИКА -->
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="kick rv"><span class="sec-no">04 / типографика</span><span class="ln"></span></div>
+    <h2 class="s rv">Логотип звучит как <span class="ac">название на обложке</span></h2>
+    <div class="spec rv">
+      <div class="big" style="font-style:italic">Десерто</div>
+      <div class="row">
+        <div class="item"><div class="role">Заголовки · логотип</div><div class="name">Playfair Display — контрастный книжный serif</div></div>
+        <div class="item"><div class="role">Текст · цитаты</div><div class="name">EB Garamond — классическая антиква</div></div>
+        <div class="item"><div class="role">Подписи</div><div class="name">JetBrains Mono — техничный контрапункт</div></div>
+      </div>
+    </div>
+    <p class="body rv" style="margin-top:18px">Контрастные засечки создают ощущение благородства и вневременной актуальности. Лаконично. Уверенно. Элегантно.</p>
+  </div>
+</section>
+
+<!-- ЦИТАТА / СТРОФА -->
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="kick rv"><span class="sec-no">05 / графические приёмы</span><span class="ln"></span></div>
+    <div class="verse rv">
+      <div class="pic"><img src="img/c2/onegin.jpg" alt="Книжная гравюра и строфа"></div>
+      <div>
+        <div class="num">XLII</div>
+        <p>«Так же, как великие строки остаются значимыми вне времени,<br>бренд создаёт десерты,<br>к которым хочется возвращаться<br>снова и снова.»</p>
+      </div>
+    </div>
+    <p class="body rv" style="margin-top:22px;max-width:62ch">Фирменная графика строится вокруг литературных образов: авторские иллюстрации, архитектурные элементы эпохи, книжные орнаменты и сюжетные композиции. Меню, этикетка, открытка — каждый носитель превращается в страницу.</p>
+  </div>
+</section>
+
+<!-- ПАЛИТРА -->
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="kick rv"><span class="sec-no">06 / палитра</span><span class="ln"></span></div>
+    <h2 class="s rv">Благородный красный, мягкий голубой</h2>
+    <p class="body rv" style="margin-top:18px">Красный добавляет выразительность и эмоциональность. Голубой — лёгкость и интеллигентность. Светлая база подчёркивает премиальность и оставляет графику главным акцентом. Сочетание выглядит одновременно классическим и современным.</p>
+    <div class="palette rv">
+      <div class="sw"><div class="chip" style="background:#9A1B2F"></div><div class="meta"><div class="nm">Благородный красный</div><div class="hex">#9A1B2F</div></div></div>
+      <div class="sw"><div class="chip" style="background:#9DBBCB"></div><div class="meta"><div class="nm">Мягкий голубой</div><div class="hex">#9DBBCB</div></div></div>
+      <div class="sw"><div class="chip" style="background:#FBF6EB"></div><div class="meta"><div class="nm">Светлая база</div><div class="hex">#FBF6EB</div></div></div>
+      <div class="sw"><div class="chip" style="background:#3A2417"></div><div class="meta"><div class="nm">Шоколад</div><div class="hex">#3A2417</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ЧТО ХОЧЕТ ГОСТЬ -->
+<section style="padding-top:8px">
+  <div class="wrap narrow">
+    <div class="kick rv"><span class="sec-no">07 / что хочет гость</span><span class="ln"></span></div>
+    <div class="quote rv">«Гости выбирают не только вкус — они выбирают впечатления, истории и бренды с собственным характером.»</div>
+    <p class="body rv" style="margin-top:22px">Людям хочется соприкасаться с эстетикой, культурой и атмосферой, чувствовать, что за продуктом стоит нечто большее, чем производство. Именно поэтому концепция литературного наследия создаёт более глубокую эмоциональную связь с аудиторией.</p>
+  </div>
+</section>
+
+<!-- ПОЧЕМУ СРАБОТАЕТ -->
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="close rv" style="--accent:#9A1B2F">
+      <h3>02 / почему это сработает</h3>
+      <div class="big">Настоящая классика никогда не выходит из моды.</div>
+      <p>Литература актуальна вне зависимости от времени — так и бренд получает образ, не зависящий от трендов. Вместо очередной кондитерской появляется бренд со своим культурным кодом: узнаваемый, интеллигентный, запоминающийся. Который вызывает интерес ещё до знакомства с продуктом. Не просто кондитерская — место, где классика встречается с современностью.</p>
+      <div class="links">
+        <a href="concept-3.html" style="--accent:#C8102E"><span class="d"></span>Дальше · 03 Pâtisserie</a>
+        <a href="concept-1.html" style="--accent:#B4122B"><span class="d"></span>01 Обновление</a>
+        <a href="index.html" style="--accent:#9A1B2F"><span class="d"></span>Все концепции</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>ДЕСЕРТО · концепция 02 — классика<br>
+<span style="display:inline-block;margin-top:10px">Создано в <a href="https://www.instagram.com/atmosfera.printt/" target="_blank" rel="noopener">@atmosfera.printt</a></span></footer>
+
+<script src="app.js"></script>
+</body>
+</html>
